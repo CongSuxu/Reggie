@@ -23,7 +23,7 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
 
     @Override
     public void updateFill(MetaObject metaObject) {
-        log.info("公共字段自动填充[insert]。。。");
+        log.info("公共字段自动填充[insert]。。    。");
         log.info(metaObject.toString());
     }
 }
